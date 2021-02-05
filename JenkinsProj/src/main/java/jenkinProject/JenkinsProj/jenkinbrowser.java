@@ -19,6 +19,7 @@ public class jenkinbrowser {
 		else if(browsername.equalsIgnoreCase("firefox")) {
 			driver=new FirefoxDriver();
 			System.out.println("firefox browser is launched");
+			System.out.println();
 		}
 		
 		driver.manage().window().maximize();
